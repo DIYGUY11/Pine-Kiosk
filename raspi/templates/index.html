@@ -225,6 +225,16 @@
                 style="display:inline"
               >
                 <text
+                  x="140"
+                  y="3"
+                  font-size="3px"
+                  font-family="Verdana"
+                  text-anchor="middle"
+                  id="process-diagram-timestamp"
+                >
+                  MMM DD, YYYY HH:MM
+                </text>
+                <text
                   x="136.5"
                   y="56.5"
                   font-size="3px"
@@ -1324,6 +1334,7 @@
         updatePanels();
       });
     </script>
+    <script src="/static/formatTime.js"></script>
     <script src="/static/temperature.js"></script>
     <script src="/static/flow.js"></script>
   </body>
